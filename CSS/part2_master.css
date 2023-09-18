@@ -1,0 +1,23 @@
+body{
+  /* background-color: gray; */
+  background: url(https://wallpaperaccess.com/full/90280.jpg);
+  /* background-repeat: no-repeat; */
+   background-repeat: no-repeat;
+}
+
+div{
+  background-color: green;
+  border-color: purple;
+  /* border-width: thick; */
+  border-width: 8px;
+  border-style: double;
+
+}
+p{
+  color: yellow;
+}
+
+span{
+  background: red;
+  color: black;
+}

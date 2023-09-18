@@ -1,0 +1,34 @@
+h1{
+  font-family: "Arial";
+}
+
+p{
+  font-family: monospace;
+}
+
+h2{
+  font-family: inherit;
+}
+body{
+  /* font-size: 10px; */
+  font-size: 20px;
+}
+
+#two{
+  font-size: 1.3em;
+
+}
+/* default font size of body is usually 16px so --> 1em = 16px and 2em = 32px
+but if we change the defualt font size of the body eg to 20px --> 2em = 40px*/
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+#three{
+  font-family: 'WaltographRegular';
+ font-weight: normal;
+ font-style: normal;
+}

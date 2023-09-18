@@ -1,0 +1,34 @@
+.FirstDiv{
+  color: green;
+}
+
+.SecDiv{
+  color: red;
+}
+
+
+#singledout{
+  color: orange;
+  text-decoration: line-through;
+}
+
+*{
+  font-family: cursive;
+}
+
+
+/* all the ul that immidiately follow h3 */
+ h3 + ul{
+  border: dashed 4px purple;
+}
+
+/* all linker tags inside a list */
+/* descnedence selector */
+li a{
+  color: red;
+}
+
+/* attributes selector */
+li a[href="google.com"]{
+  border: 5px solid green;
+}

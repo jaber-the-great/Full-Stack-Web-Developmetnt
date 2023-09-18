@@ -1,0 +1,21 @@
+#first-element{
+  background-color: red;
+  padding: 100px 20px 100px 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+#second-element{
+  background-color: #AACFCF;
+  padding: 100px 20px 100px 20px;
+  margin-right: 20px;
+  margin: auto;
+}
+h1 {
+   font-family: 'BeonRegular';
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+}
+.spectrum-table{
+  margin: auto;
+}
