@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+
+
+    <style>
+      .boxy{
+        background: #b3ddff;
+        border: 2px solid black;
+      }
+    </style>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 boxy">Col Large 4</div>
+        <div class="col-lg-4 boxy">Col Large 4</div>
+        <div class="col-lg-4 boxy">Col Large 4</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 boxy">Col Medium 6</div>
+        <div class="col-md-6 boxy">Col Medium 6</div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 boxy">Col small 6</div>
+        <div class="col-sm-6 boxy">Col small 6</div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 boxy">One</div>
+        <div class="col-lg-3 col-sm-6 boxy">Two</div>
+        <div class="col-lg-3 col-sm-6 boxy">Three</div>
+        <div class="col-lg-3 col-sm-6 boxy">Four</div>
+
+      </div>
+    </div>
+
+<!-- instead of directly working with number of columns, we can use nested Divs -->
+<!-- by this method we can even have more than 12 columns -->
+      <div class="row">
+        <div class="col-lg-6 boxy">
+          <div class="row">
+            <div class="col-lg-6 boxy">Nest one</div>
+            <div class="col-lg-6 boxy">Nest Two</div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 boxy">Top Level</div>
+      </div>
+
+
+  </body>
+</html>
